@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* .valid{
+    border: 1px solid green;
+}
+.not-valid{
+    border: 1px solid green;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 750px;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 6px 1px rgb(215, 195, 170);
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22); */
+    margin-top: 80px;
+    display: flex;
+}
+
+.container .left {
+    /* background-color: whitesmoke; */
+    height: inherit;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .left h1 {
+    margin-bottom: 20px;
+}
+
+.container .left .icon {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .left .icon i {
+    /* color: linear-gradient(45deg, #EA738DFF, #89ABE3FF); */
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    color: black;
+}
+
+.container .left .p {
+    font-size: 13px;
+}
+
+.container .email input,
+.pswd input,
+.name input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0px 0px 8px;
+    width: 250px;
+}
+
+.container .left .forgot {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container .left .forgot a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .left .btn #Signin {
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    /* background-color:  #89ABE3FF; */
+    background: linear-gradient(45deg, #EA738DFF, #89ABE3FF);
+}
+
+.container .right {
+    height: inherit;
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    background: linear-gradient(45deg, #EA738DFF, #89ABE3FF);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.right h1 {
+    margin-bottom: 30px;
+}
+
+.right p {
+    margin: 0px 40px;
+    margin-bottom: 20px;
+}
+
+#signUp,
+#signIn {
+    /* background-color: #fff; */
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+}
+
+
+.pswd{
+    position: relative;
+}
+
+.pswd a i{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: black;
+    /* font-size: 14px; */
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+.container #left-hide, #right-hide{
+    display: none;
+}
+/* button{
+    transition: transform 80ms ease-in;
+} */
